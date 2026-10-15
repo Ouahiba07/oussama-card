@@ -1,0 +1,26 @@
+:root{--bg:#070f20;--card:#0e1b36;--line:#1d2f55;--gold:#f5b800;--blue:#2aa7ff;--text:#f2f5fb;--mute:#a9b6d0;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--text);font-family:"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.6}
+.wrap{max-width:560px;margin:0 auto;padding:20px 16px 90px}
+.hero{text-align:center;padding:32px 16px;border-radius:20px;background:linear-gradient(160deg,#0e1b36,#070f20);border:1px solid var(--line);position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;top:-40px;left:-40px;width:140px;height:140px;background:var(--gold);transform:rotate(45deg);opacity:.9}
+.logo{font-size:44px;position:relative}
+h1{font-size:28px;color:var(--gold);margin:6px 0 2px;position:relative}
+.sub{font-size:18px;position:relative}
+.slogan{color:var(--blue);margin-top:10px;font-style:italic;position:relative}
+.btns{display:flex;gap:10px;margin-top:20px;position:relative}
+.btn{flex:1;padding:13px;border-radius:12px;text-decoration:none;font-weight:700;text-align:center}
+.call{background:var(--gold);color:#111}
+.wa{background:#1fa855;color:#fff}
+h2{font-size:20px;margin:28px 0 12px;color:var(--gold)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.s{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
+.s .i{font-size:28px}
+.s b{display:block;margin:6px 0 4px}
+.s span{color:var(--mute);font-size:14px}
+.why{display:flex;flex-direction:column;gap:10px}
+.why div{background:var(--card);border-right:4px solid var(--gold);border-radius:10px;padding:12px 14px}
+.why small{display:block;color:var(--mute)}
+.bar{position:fixed;bottom:0;left:0;right:0;background:#070f20ee;border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px))}
+.bar a{display:block;max-width:560px;margin:0 auto}
+footer{text-align:center;color:var(--mute);font-size:13px;margin-top:28px}
